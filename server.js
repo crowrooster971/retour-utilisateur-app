@@ -11,7 +11,7 @@ const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/retour
 
 mongoose.connect(MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log('MongoDB connecté'))
-  .catch(err => console.error('Erreur de connexion MongoDB:', err));
+  .catch(err => console.error('Erreur de connexion à MongoDB:', err));
 
 app.get('/', (req, res) => {
   res.send('API de Retour Utilisateur');
