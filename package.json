@@ -1,6 +1,6 @@
 {
   "name": "retour-utilisateur-app",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Application de Retour Utilisateur",
   "main": "index.js",
   "scripts": {
